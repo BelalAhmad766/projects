@@ -1,0 +1,394 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300,900&display=swap');
+
+  /* universal selector */
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:#f6f8fa;
+    font-size:15px;
+    font-weight:600;
+}
+li{
+    list-style: none;
+}
+button {
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fff;
+    color: #6663e9;
+    border:1px solid #6663e9
+}
+body{
+    background-color:#f6f8fa;
+    color: #f6f8fa;
+    font-family: 'Poppins', sans-serif;
+}
+/*----------- header----------------- */
+/* ---------------------------------- */
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.943), rgba(0, 0, 0, 0.484)), url(image/mainBackground.png);
+    background-size:cover;
+    height:100vw;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+nav img{
+   width:100px;
+   margin-top:20px;
+   margin-right:250px;
+}   
+    
+nav ul{
+    display: flex;
+    gap:70px;
+    margin-top: 10px;
+}
+
+hr{
+    margin:0px 80px;
+    margin-top:10px;
+}
+/*-- hero --*/
+.hero{
+    margin-top:100px;
+    margin-left:140px;
+}
+.hero h1{
+    font-size:75px;
+    margin-bottom:10px ;
+    font-weight:900;
+}
+.hero h6{
+    font-size:35px;
+    font-weight:lighter;
+    line-height:40px;
+}
+.hero button{
+    margin-top:20px;
+}
+/*--------------- banner-------------------- */
+/* ----------------------------------------- */
+.banner{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #d6c9c9;
+    margin: 0 20px;
+    height:90px;
+    gap:70px;
+    border-radius:20px;
+    position: relative;
+    bottom:40px;
+   
+}
+.banner img{
+    width:170px;
+    height:40px;
+}
+/* ------------------location----------------- */
+/* ------------------------------------------- */
+
+.locationheading h1{
+  color:black;
+  text-align: center;
+  font-size:80px;
+  font-weight:700;
+  line-height:80px;
+  margin-bottom:80px;
+  margin-top:30px;
+}
+.houses{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    position: relative;
+}
+.sample img{
+    width:410px;
+    height:420px;
+    border-radius:25px;
+    /* position: relative; */
+    
+   }
+.nameplate{
+    background-color: #d6c9c9;
+    margin:0 20px;
+    height:110px;
+    border-radius: 20px;
+    position: relative;
+    bottom:50px;
+}
+.nameplate h1{
+    color: black;
+    position: relative;
+    font-size:30px;
+    left:17px;
+    top:17px;
+}
+
+.nameplate h4{
+    color:#6663e9;
+    position: relative;
+    font-size:25px;
+    left:17px;
+    top:25px;
+}
+
+.nameplate button{
+    position: relative;
+    left:240px;
+    bottom:30px;
+}
+/* ----img position---- */
+.img4{  
+    position: relative;
+ top:20px;
+}
+
+.img7{  
+    position: relative;
+ top:40px;
+}
+.img8{
+    position: relative;
+    top:20px;
+}
+
+.img5{
+    position: relative;
+    top:40px;
+}
+.img2{
+    position:relative;
+    top:60px;
+}
+.img3{
+    position: relative;
+    top:40px;
+}
+
+.img6{
+    position: relative;
+    top:60px;
+}
+.img9{
+    position: relative;
+    top:90px;
+}
+
+/* --------------feature-top-------------- */
+/* --------------------------------------- */
+
+/* --feature-top-left --*/
+.feature-top{
+    display: flex;
+    margin-top:200px;
+    position: relative;
+}
+
+.feature-top-left  .down{
+   width:580px;
+}
+
+.feature-top-left  .up{
+    width:430px;
+    height: 390px;
+    position:absolute;
+    right:748px;
+    bottom:100px;
+    border-radius:50px;
+ }
+
+ /*-- feature-top-right--*/
+
+ .feature-top-right{
+    margin-right:500px;
+    margin-top:90px;
+    color: black;
+ }
+
+.feature-top-right  h1{
+   font-size:90px;
+   margin-bottom: 20px;
+}
+.feature-top-right h6{
+    margin-bottom:30px;
+}
+
+/* --------------feature-down--------------- */
+/* ----------------------------------------- */
+
+.feature-down{
+    display:flex;
+    justify-content: space-between;
+    margin-top:40px;
+    position: relative;
+}
+
+/* feature-down-left */
+.feature-down-left{
+    color: black;
+    margin-left: 20px;
+    margin-top:40px;
+}
+
+.feature-down-left h1{
+    font-size:70px;
+    margin-bottom:30px ;
+}
+
+.feature-down-left h6{
+  margin-bottom: 30px;
+}
+
+/* frature-down-right */
+
+.feature-down-right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+.feature-down-right .down{
+    width:800px;
+    height: 400px;
+}
+
+.feature-down-right  .up{
+    width:453px;
+    height:350px;
+    border-radius:30px;
+    position: absolute;
+    right:140px;
+    bottom: 100px;
+   
+
+}
+
+/* --------subscribe----------- */
+.subscribe{
+    margin:40px;
+    width:93%;
+    height:420px;
+    background-color:#6663e9;
+    border-radius: 30px;
+}
+.subscribein{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribein h3{
+    font-size:80px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top:35px;
+}
+
+
+.subscribein p{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+
+
+/* form */
+.form{
+    display:flex;
+    gap:10px;
+}
+
+
+.form-left{
+    width:600px;
+    background-color:#413fc9;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.form-left img{
+    width:20px;
+    height: 20px;
+    margin-left:20px ;
+}
+
+.subscribein button{
+    background-color: #fff;
+    color: #6663e9;
+}
+
+/* --------------footer---------------*/
+
+footer{
+    display: flex;
+    justify-content:space-around;
+    gap:300px;
+    margin-top:80px;
+    margin-bottom: 80px;
+}
+ 
+/* left footer */
+
+footer .left .up{
+    margin-bottom: 20px;
+}
+
+footer .left  .down{
+    margin-bottom: 20px;
+    display: flex;
+    gap:30px;
+}
+
+footer p{
+    color: black;
+    font-size: 20px;
+    
+}
+
+/* right footer */
+footer .right{
+    display:flex;
+    gap:100px;
+}
+
+footer li{
+    margin-bottom:25px;
+}
+
+footer .right  ul{
+    color: #080707;
+}
+
+footer .right .top{
+    font-weight:600;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 820px){
+   
+}
